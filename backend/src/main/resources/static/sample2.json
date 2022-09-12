@@ -1,0 +1,33 @@
+{
+  "RECORDS": [
+    {
+      "name": "学生",
+      "type": 0,
+      "entityType": "人物"
+    },
+    {
+      "name": "课程",
+      "type": 0,
+      "entityType": "事物"
+    },
+    {
+      "name": "教师",
+      "type": 0,
+      "entityType": "人物"
+    },
+    {
+      "name": "选修",
+      "type": 1,
+      "e1": "学生",
+      "e2": "课程",
+      "relationType": "学生参与"
+    },
+    {
+      "name": "讲授",
+      "type": 1,
+      "e1": "课程",
+      "e2": "教师",
+      "relationType": "教师参与"
+    }
+  ]
+}

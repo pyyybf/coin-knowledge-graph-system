@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.coin.data.searchHistory.SearchHistoryMapper">
+    <insert id="addSearchHistory" parameterType="com.example.coin.po.SearchHistory" useGeneratedKeys="true"
+            keyProperty="id">
+        insert into SearchHistory(userId,content)
+        values(#{userId},#{content})
+    </insert>
+
+    <!--  删除一条搜索记录-->
+    <delete id="deleteSearchHistory">
+        delete from SearchHistory where id=#{searchHistoryId}
+    </delete>
+
+    <!--  用于返回最大的searchHistoryId-->
+    <select id="getMaxSearchHistoryId" resultType="int">
+        select max(id) from SearchHistory
+    </select>
+
+    <!--  用于返回某文件最近的10条搜索记录-->
+    <select id="getLast10SearchHistoriesByUserId" resultMap="SearchHistory">
+        select * from SearchHistory
+        where userId=#{userId}
+        order by id desc
+        limit 10
+    </select>
+
+    <resultMap id="SearchHistory" type="com.example.coin.po.SearchHistory">
+        <id column="id" property="id"></id>
+        <result column="userId" property="userId"></result>
+        <result column="content" property="content"></result>
+    </resultMap>
+</mapper>

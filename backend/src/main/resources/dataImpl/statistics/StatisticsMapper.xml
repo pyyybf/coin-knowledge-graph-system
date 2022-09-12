@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.coin.data.statistics.StatisticsMapper">
+    <!--  用于返回某文件中实体的总数-->
+    <select id="getEntityNumTotal" resultType="int">
+        select count(*) from Entity where fileId=#{fileId}
+    </select>
+    <!--  用于返回某文件中关系的总数-->
+    <select id="getRelationNumTotal" resultType="int">
+        select count(*) from Relation where fileId=#{fileId}
+    </select>
+    <!--  用于返回某文件中某类实体的总数-->
+    <select id="getEntityNumByType" resultType="int">
+        select count(*) from Entity where fileId=#{fileId} and entityType=#{entityType}
+    </select>
+    <!-- 用于返回某文件中所有实体类型-->
+    <select id="getAllEntityTypes" resultType="String">
+        select distinct entityType from Entity where fileId=#{fileId}
+    </select>
+    <!-- 用于返回某文件中所有关系类型-->
+    <select id="getAllRelationTypes" resultType="String">
+        select distinct relationType from Relation where fileId=#{fileId}
+    </select>
+    <!--  用于返回某文件中某类关系的总数-->
+    <select id="getRelationNumByType" resultType="int">
+        select count(*) from Relation where fileId=#{fileId} and relationType=#{relationType}
+    </select>
+    <!--  用于返回某文件中某个实体的关系个数-->
+    <select id="getRelationNumByEntity" resultType="int">
+        select count(*) from Relation where fileId=#{fileId} and (e1=#{entityName} or e2=#{entityName})
+    </select>
+    <!--  用于返回某文件中某类实体-->
+    <select id="getEntitiesByType" resultMap="Entity">
+        select * from Entity where fileId=#{fileId} and entityType=#{entityType}
+    </select>
+    <!--  用于返回某文件中某类关系-->
+    <select id="getRelationsByType" resultMap="Relation">
+        select * from Relation where fileId=#{fileId} and relationType=#{relationType}
+    </select>
+
+
+    <resultMap id="Entity" type="com.example.coin.po.Entity"></resultMap>
+    <resultMap id="Relation" type="com.example.coin.po.Relation"></resultMap>
+</mapper>

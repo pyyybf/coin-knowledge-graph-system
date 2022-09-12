@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+    <entity>
+        <name>学生</name>
+    </entity>
+    <entity>
+        <name>课程</name>
+    </entity>
+    <entity>
+        <name>教师</name>
+    </entity>
+    <relation>
+        <name>选修</name>
+        <e1>学生</e1>
+        <e2>课程</e2>
+    </relation>
+    <relation>
+        <name>讲授</name>
+        <e1>课程</e1>
+        <e2>教师</e2>
+    </relation>
+</records>

@@ -1,0 +1,1808 @@
+{
+  "RECORDS": [
+    {
+      "type": 0,
+      "name": "贾雨村",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "贾琏",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "王夫人",
+      "entityType": "四大家族-王家"
+    },
+    {
+      "type": 0,
+      "name": "林之孝家的",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "甄应嘉",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "秦可卿",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "芳官",
+      "entityType": "十二官"
+    },
+    {
+      "type": 0,
+      "name": "李纨",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "夏金桂",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "柳五儿",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾珠",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "四儿",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾珍",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "茗烟",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "贾蓉",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "薛蝌",
+      "entityType": "四大家族-薛家"
+    },
+    {
+      "type": 0,
+      "name": "坠儿",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾环",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "赖尚荣",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "贾宝玉",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "甄士隐",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "马道婆",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "贾政",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "尤三姐",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "秦钟",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "王熙凤",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "袭人",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "刘姥姥",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "王狗儿",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "入画",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "林红玉",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "周瑞家的",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "贾敬",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "孙绍祖",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "贾惜春",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "傻大姐",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "晴雯",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "李嬷嬷",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "贾代化",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "林如海",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "甄宝玉",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "秋桐",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "金文翔家的",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "鸳鸯",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "冷子兴",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "薛蟠",
+      "entityType": "四大家族-薛家"
+    },
+    {
+      "type": 0,
+      "name": "焦大",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "宝珠",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "吴贵",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "佩凤",
+      "entityType": "嫁入贾家"
+    },
+    {
+      "type": 0,
+      "name": "龄官",
+      "entityType": "十二官"
+    },
+    {
+      "type": 0,
+      "name": "莺儿 黄金莺",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾敏",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "瑞珠",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "尤氏继母",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "娇杏",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "薛宝钗",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "邢夫人",
+      "entityType": "嫁入贾家"
+    },
+    {
+      "type": 0,
+      "name": "薛姨妈",
+      "entityType": "四大家族-王家"
+    },
+    {
+      "type": 0,
+      "name": "林黛玉",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "秦邦业",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "藕官",
+      "entityType": "十二官"
+    },
+    {
+      "type": 0,
+      "name": "王善保家的",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "贾探春",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "薛宝琴",
+      "entityType": "四大家族-薛家"
+    },
+    {
+      "type": 0,
+      "name": "麝月",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾演",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "贾迎春",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "妙玉",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "玉钏儿",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "秋纹",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "智能儿",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "王子腾",
+      "entityType": "四大家族-王家"
+    },
+    {
+      "type": 0,
+      "name": "柳湘莲",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "金钏儿",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "尤氏",
+      "entityType": "嫁入贾家"
+    },
+    {
+      "type": 0,
+      "name": "邢岫烟",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "香菱",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾源",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "贾元春",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "赵姨娘",
+      "entityType": "嫁入贾家"
+    },
+    {
+      "type": 0,
+      "name": "邢忠",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "史湘云",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "雪雁",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "紫鹃 鹦哥",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "金文翔",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "彩云",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾母",
+      "entityType": "四大家族-史家"
+    },
+    {
+      "type": 0,
+      "name": "贾代善",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "巧姐",
+      "entityType": "十二钗"
+    },
+    {
+      "type": 0,
+      "name": "赖大",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "尤二姐",
+      "entityType": "嫁入贾家"
+    },
+    {
+      "type": 0,
+      "name": "林之孝",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "封肃",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "香菱 甄英莲",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "宝蟾",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "彩霞",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "李贵",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "药官",
+      "entityType": "十二官"
+    },
+    {
+      "type": 0,
+      "name": "赖嬷嬷",
+      "entityType": "奴仆"
+    },
+    {
+      "type": 0,
+      "name": "蒋玉菡",
+      "entityType": "其他重要人物"
+    },
+    {
+      "type": 0,
+      "name": "金钏",
+      "entityType": "丫鬟"
+    },
+    {
+      "type": 0,
+      "name": "贾兰",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "贾蔷",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 0,
+      "name": "偕鸾",
+      "entityType": "嫁入贾家"
+    },
+    {
+      "type": 0,
+      "name": "贾赦",
+      "entityType": "四大家族-贾家"
+    },
+    {
+      "type": 1,
+      "name": "伯父",
+      "e1": "王子腾",
+      "e2": "王熙凤",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丫头",
+      "e1": "莺儿 黄金莺",
+      "e2": "薛宝钗",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "老师",
+      "e1": "贾雨村",
+      "e2": "林黛玉",
+      "relationType": "师生关系"
+    },
+    {
+      "type": 1,
+      "name": "丫头",
+      "e1": "傻大姐",
+      "e2": "贾母",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "相好",
+      "e1": "龄官",
+      "e2": "贾蔷",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "藕官",
+      "e2": "林黛玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "相好",
+      "e1": "藕官",
+      "e2": "药官",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "赖嬷嬷",
+      "e2": "赖大",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "孙子",
+      "e1": "赖尚荣",
+      "e2": "赖嬷嬷",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "姑舅哥哥",
+      "e1": "吴贵",
+      "e2": "晴雯",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "薛蟠",
+      "e2": "薛姨妈",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "侄儿",
+      "e1": "薛蝌",
+      "e2": "薛姨妈",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "侄女",
+      "e1": "邢岫烟",
+      "e2": "邢夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "邢岫烟",
+      "e2": "邢忠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "邢岫烟",
+      "e2": "薛蝌",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "胞妹",
+      "e1": "薛宝琴",
+      "e2": "薛蝌",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "侄女",
+      "e1": "薛宝琴",
+      "e2": "薛姨妈",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "夏金桂",
+      "e2": "薛蟠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妾",
+      "e1": "香菱 甄英莲",
+      "e2": "薛蟠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "香菱",
+      "e2": "甄士隐",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "甄士隐",
+      "e2": "香菱",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "陪房丫头",
+      "e1": "宝蟾",
+      "e2": "夏金桂",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "赵姨娘",
+      "e2": "贾探春",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "赵姨娘",
+      "e2": "贾环",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妾",
+      "e1": "赵姨娘",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "姑母",
+      "e1": "薛姨妈",
+      "e2": "薛宝琴",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "薛姨妈",
+      "e2": "薛蟠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "姐妹",
+      "e1": "薛姨妈",
+      "e2": "王夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "大丫环",
+      "e1": "金钏",
+      "e2": "王夫人",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "大丫头",
+      "e1": "彩云",
+      "e2": "王夫人",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "大丫头",
+      "e1": "彩霞",
+      "e2": "王夫人",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫头",
+      "e1": "玉钏儿",
+      "e2": "王夫人",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "妹妹",
+      "e1": "玉钏儿",
+      "e2": "金钏儿",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "姐姐",
+      "e1": "金钏儿",
+      "e2": "玉钏儿",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "哥哥",
+      "e1": "贾珠",
+      "e2": "贾宝玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾珠",
+      "e2": "李纨",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "长子",
+      "e1": "贾珠",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "长子",
+      "e1": "贾珠",
+      "e2": "王夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "嫂子",
+      "e1": "李纨",
+      "e2": "贾宝玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "李纨",
+      "e2": "贾珠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾兰",
+      "e2": "李纨",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾兰",
+      "e2": "贾珠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "长女",
+      "e1": "贾元春",
+      "e2": "王夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "长女",
+      "e1": "贾元春",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "表兄妹",
+      "e1": "贾宝玉",
+      "e2": "林黛玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾宝玉",
+      "e2": "薛宝钗",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "次子",
+      "e1": "贾宝玉",
+      "e2": "王夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "次子",
+      "e1": "贾宝玉",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "薛宝钗",
+      "e2": "薛姨妈",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "薛宝钗",
+      "e2": "贾宝玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "袭人",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "麝月",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "秋纹",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "晴雯",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "坠儿",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "四儿",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "柳五儿",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "好朋友",
+      "e1": "柳五儿",
+      "e2": "芳官",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "芳官",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "小厮",
+      "e1": "茗烟",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾环",
+      "e2": "赵姨娘",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾环",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "贾探春",
+      "e2": "赵姨娘",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "贾探春",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "养子",
+      "e1": "贾蔷",
+      "e2": "贾珍",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "买办",
+      "e1": "金文翔",
+      "e2": "贾母",
+      "relationType": "其他关系"
+    },
+    {
+      "type": 1,
+      "name": "哥哥",
+      "e1": "金文翔",
+      "e2": "鸳鸯",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "嫂子",
+      "e1": "金文翔家的",
+      "e2": "鸳鸯",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "陪房",
+      "e1": "周瑞家的",
+      "e2": "王夫人",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "陪房",
+      "e1": "王善保家的",
+      "e2": "邢夫人",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "二夫人",
+      "e1": "娇杏",
+      "e2": "贾雨村",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "岳父",
+      "e1": "封肃",
+      "e2": "甄士隐",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "甄宝玉",
+      "e2": "甄应嘉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "朋友",
+      "e1": "妙玉",
+      "e2": "贾宝玉",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "朋友",
+      "e1": "妙玉",
+      "e2": "林黛玉",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "好兄弟",
+      "e1": "柳湘莲",
+      "e2": "薛蟠",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "夫妻",
+      "e1": "蒋玉菡",
+      "e2": "袭人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "好友",
+      "e1": "蒋玉菡",
+      "e2": "贾宝玉",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "好友",
+      "e1": "冷子兴",
+      "e2": "贾雨村",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "女婿",
+      "e1": "冷子兴",
+      "e2": "周瑞家的",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "乾娘",
+      "e1": "马道婆",
+      "e2": "贾宝玉",
+      "relationType": "其他关系"
+    },
+    {
+      "type": 1,
+      "name": "暧昧",
+      "e1": "智能儿",
+      "e2": "秦钟",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "秦钟",
+      "e2": "秦邦业",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妹妹",
+      "e1": "尤三姐",
+      "e2": "尤二姐",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "姐姐",
+      "e1": "尤二姐",
+      "e2": "尤三姐",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "尤三姐",
+      "e2": "尤氏继母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "养父",
+      "e1": "秦邦业",
+      "e2": "秦可卿",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "秦邦业",
+      "e2": "秦钟",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "孙女",
+      "e1": "史湘云",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "朋友",
+      "e1": "史湘云",
+      "e2": "薛宝钗",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "朋友",
+      "e1": "史湘云",
+      "e2": "林黛玉",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "朋友",
+      "e1": "史湘云",
+      "e2": "贾宝玉",
+      "relationType": "朋友关系"
+    },
+    {
+      "type": 1,
+      "name": "兄弟",
+      "e1": "贾演",
+      "e2": "贾源",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "主人",
+      "e1": "贾演",
+      "e2": "焦大",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾演",
+      "e2": "贾代化",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾代化",
+      "e2": "贾敬",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾代化",
+      "e2": "贾演",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾敬",
+      "e2": "贾珍",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾敬",
+      "e2": "贾代化",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "老奴",
+      "e1": "焦大",
+      "e2": "贾演",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾珍",
+      "e2": "贾惜春",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾珍",
+      "e2": "贾蓉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾珍",
+      "e2": "尤氏",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾珍",
+      "e2": "贾敬",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "尤氏",
+      "e2": "贾惜春",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "尤氏",
+      "e2": "贾珍",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妾",
+      "e1": "佩凤",
+      "e2": "贾珍",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妾",
+      "e1": "偕鸾",
+      "e2": "贾珍",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾蓉",
+      "e2": "秦可卿",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾蓉",
+      "e2": "贾珍",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "秦可卿",
+      "e2": "贾蓉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "瑞珠",
+      "e2": "秦可卿",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "宝珠",
+      "e2": "秦可卿",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "入画",
+      "e2": "贾惜春",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "贾惜春",
+      "e2": "尤氏",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "贾惜春",
+      "e2": "贾珍",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾源",
+      "e2": "贾代善",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾代善",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾代善",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾代善",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾代善",
+      "e2": "贾源",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "外祖母",
+      "e1": "贾母",
+      "e2": "林黛玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "婆婆",
+      "e1": "贾母",
+      "e2": "邢夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "贾母",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "贾母",
+      "e2": "贾代善",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "兄弟",
+      "e1": "贾政",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾政",
+      "e2": "贾探春",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾政",
+      "e2": "贾环",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾政",
+      "e2": "贾宝玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾政",
+      "e2": "贾元春",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾政",
+      "e2": "贾珠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾政",
+      "e2": "王夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "次子",
+      "e1": "贾政",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾政",
+      "e2": "贾代善",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾赦",
+      "e2": "贾迎春",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾赦",
+      "e2": "贾琏",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾赦",
+      "e2": "邢夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "大儿子",
+      "e1": "贾赦",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾赦",
+      "e2": "贾代善",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "婆婆",
+      "e1": "邢夫人",
+      "e2": "王熙凤",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "大儿媳",
+      "e1": "邢夫人",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "邢夫人",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "王夫人",
+      "e2": "贾宝玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "王夫人",
+      "e2": "贾元春",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "王夫人",
+      "e2": "贾珠",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "姐妹",
+      "e1": "王夫人",
+      "e2": "薛姨妈",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "王夫人",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "小儿媳",
+      "e1": "王夫人",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丫头",
+      "e1": "鸳鸯",
+      "e2": "贾母",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "林如海",
+      "e2": "林黛玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "林如海",
+      "e2": "贾敏",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "兄妹",
+      "e1": "贾敏",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "兄妹",
+      "e1": "贾敏",
+      "e2": "贾政",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "贾敏",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "贾敏",
+      "e2": "林黛玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "贾敏",
+      "e2": "林如海",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "表兄妹",
+      "e1": "林黛玉",
+      "e2": "贾宝玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "外孙女",
+      "e1": "林黛玉",
+      "e2": "贾母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "林黛玉",
+      "e2": "林如海",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丫头",
+      "e1": "紫鹃 鹦哥",
+      "e2": "贾母",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "丫头",
+      "e1": "雪雁",
+      "e2": "林黛玉",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "内侄女",
+      "e1": "王熙凤",
+      "e2": "王夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母亲",
+      "e1": "王熙凤",
+      "e2": "巧姐",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "王熙凤",
+      "e2": "贾琏",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿媳",
+      "e1": "王熙凤",
+      "e2": "邢夫人",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妾",
+      "e1": "秋桐",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丫环",
+      "e1": "秋桐",
+      "e2": "贾赦",
+      "relationType": "主仆关系"
+    },
+    {
+      "type": 1,
+      "name": "父亲",
+      "e1": "贾琏",
+      "e2": "巧姐",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "丈夫",
+      "e1": "贾琏",
+      "e2": "王熙凤",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "儿子",
+      "e1": "贾琏",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "妻",
+      "e1": "贾迎春",
+      "e2": "孙绍祖",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "贾迎春",
+      "e2": "贾赦",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "被抚养",
+      "e1": "巧姐",
+      "e2": "刘姥姥",
+      "relationType": "其他关系"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "巧姐",
+      "e2": "贾琏",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "巧姐",
+      "e2": "王熙凤",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "岳母",
+      "e1": "刘姥姥",
+      "e2": "王狗儿",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "二房",
+      "e1": "尤二姐",
+      "e2": "贾琏",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "女儿",
+      "e1": "尤二姐",
+      "e2": "尤氏继母",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "父",
+      "e1": "林之孝",
+      "e2": "林红玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母",
+      "e1": "林之孝家的",
+      "e2": "林红玉",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "母",
+      "e1": "李嬷嬷",
+      "e2": "李贵",
+      "relationType": "家庭成员"
+    },
+    {
+      "type": 1,
+      "name": "乳母",
+      "e1": "李嬷嬷",
+      "e2": "贾宝玉",
+      "relationType": "主仆关系"
+    }
+  ]
+}

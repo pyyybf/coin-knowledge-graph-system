@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.coin.data.operator.OperatorMapper">
+    <!--根据fileId获取文件-->
+    <select id="getFileById" resultMap="SourceFile">
+        select * from File where id=#{fileId}
+    </select>
+    <!--    根据文件名获得文件id-->
+    <select id="getFileIdByName" resultType="int">
+        select id from File where path=#{fileName}
+    </select>
+    <!--    获得某文件下所有实体列表-->
+    <select id="getEntities" resultMap="Entity">
+        select * from Entity where fileId=#{fileId}
+    </select>
+    <!--    获得某文件下所有关系列表-->
+    <select id="getRelations" resultMap="Relation">
+        select * from Relation where fileId=#{fileId}
+    </select>
+    <!--    加载实体-->
+    <insert id="addEntity" parameterType="com.example.coin.po.Entity" useGeneratedKeys="true" keyProperty="id">
+        insert into Entity(entityName,fileId,color,shape,fontType,fontSize,entityType,x,y,x2,y2,visible,nameVisible,entitySize)
+        values(#{entityName},#{fileId},#{color},#{shape},#{fontType},#{fontSize},#{entityType},#{x},#{y},#{x2},#{y2},#{visible},#{nameVisible},#{entitySize})
+    </insert>
+    <!--    加载关系-->
+    <insert id="addRelation" parameterType="com.example.coin.po.Relation" useGeneratedKeys="true" keyProperty="id">
+        insert into Relation(relationName,fileId,e1,e2,lineType,visible,labelVisible,color,relationType)
+        values(#{relationName},#{fileId},#{e1},#{e2},#{lineType},#{visible},#{labelVisible},#{color},#{relationType})
+    </insert>
+    <!--    更新实体名称-->
+    <update id="updateEntityName">
+        update Entity set entityName=#{name} where id=#{entityId}
+    </update>
+    <!--    更新实体颜色-->
+    <update id="updateEntityColor">
+        update Entity set color=#{color} where id=#{entityId}
+    </update>
+    <!--    更新实体形状-->
+    <update id="updateEntityShape">
+        update Entity set shape=#{shape} where id=#{entityId}
+    </update>
+    <!--    更新实体字体类型-->
+    <update id="updateEntityFontType">
+        update Entity set fontType=#{fontType} where id=#{entityId}
+    </update>
+    <!--    更新实体字体大小-->
+    <update id="updateEntityFontSize">
+        update Entity set fontSize=#{fontSize} where id=#{entityId}
+    </update>
+    <!--    更新实体x坐标-->
+    <update id="updateEntityX">
+        update Entity set x=#{x} where id=#{entityId}
+    </update>
+    <!--    更新实体y坐标-->
+    <update id="updateEntityY">
+        update Entity set y=#{y} where id=#{entityId}
+    </update>
+    <!--    更新实体x2坐标-->
+    <update id="updateEntityX2">
+        update Entity set x2=#{x2} where id=#{entityId}
+    </update>
+    <!--    更新实体y2坐标-->
+    <update id="updateEntityY2">
+        update Entity set y2=#{y2} where id=#{entityId}
+    </update>
+    <!--    更细实体大小-->
+    <update id="updateEntitySize">
+        update Entity set entitySize=#{entitySize} where id=#{entityId}
+    </update>
+    <!--    更新实体类型-->
+    <update id="updateEntityType">
+        update Entity set entityType=#{entityType} where id=#{entityId}
+    </update>
+    <!--    设置实体可见-->
+    <update id="setEntityVisible">
+        update Entity set visible=true where id=#{entityId}
+    </update>
+    <!--    设置实体不可见-->
+    <update id="setEntityInvisible">
+        update Entity set visible=false where id=#{entityId}
+    </update>
+    <!--    设置实体名字可见-->
+    <update id="setEntityNameVisible">
+        update Entity set nameVisible=true where id=#{entityId}
+    </update>
+    <!--    设置实体名字不可见-->
+    <update id="setEntityNameInvisible">
+        update Entity set nameVisible=false where id=#{entityId}
+    </update>
+    <!--    更新关系名称-->
+    <update id="updateRelationName">
+        update Relation set relationName=#{name} where id=#{relationId}
+    </update>
+    <!--    更新关系线条类型-->
+    <update id="updateRelationLine">
+        update Relation set lineType=#{type} where id=#{relationId}
+    </update>
+    <!--    更新关系起点和终点-->
+    <update id="updateRelationEndpoint">
+        update Relation set e1=#{e1},e2=#{e2} where id=#{relationId}
+    </update>
+    <!--    更新关系类型-->
+    <update id="updateRelationType">
+        update Relation set relationType=#{relationType} where id=#{relationId}
+    </update>
+    <!--    更新关系颜色-->
+    <update id="updateRelationColor">
+        update Relation set color=#{color} where id=#{relationId}
+    </update>
+    <!--    设置关系可见-->
+    <update id="setRelationVisible">
+        update Relation set visible=true where id=#{relationId}
+    </update>
+    <!--    设置关系不可见-->
+    <update id="setRelationInvisible">
+        update Relation set visible=false where id=#{relationId}
+    </update>
+    <!--    设置关系标签可见-->
+    <update id="setRelationLabelVisible">
+        update Relation set labelVisible=true where id=#{relationId}
+    </update>
+    <!--    设置关系标签不可见-->
+    <update id="setRelationLabelInvisible">
+        update Relation set labelVisible=false where id=#{relationId}
+    </update>
+    <!--    删除实体-->
+    <delete id="deleteEntity">
+        delete from Entity where id=#{entityId}
+    </delete>
+    <!--    删除关系-->
+    <delete id="deleteRelation">
+        delete from Relation where id=#{relationId}
+    </delete>
+    <!-- 返回文件zoom-->
+    <select id="getFileZoom" resultType="double">
+        select zoom from File where id=#{fileId}
+    </select>
+    <!-- 返回文件pointX-->
+    <select id="getFilePointX" resultType="double">
+        select pointX from File where id=#{fileId}
+    </select>
+    <!-- 返回文件PointY-->
+    <select id="getFilePointY" resultType="double">
+        select pointY from File where id=#{fileId}
+    </select>
+    <!-- 返回文件zoom2-->
+    <select id="getFileZoom2" resultType="double">
+        select zoom2 from File where id=#{fileId}
+    </select>
+    <!-- 返回文件pointX2-->
+    <select id="getFilePointX2" resultType="double">
+        select pointX2 from File where id=#{fileId}
+    </select>
+    <!-- 返回文件PointY-->
+    <select id="getFilePointY2" resultType="double">
+        select pointY2 from File where id=#{fileId}
+    </select>
+    <!--  更新文件zoom-->
+    <update id="updateFileZoom">
+        update File set zoom=#{zoom} where id=#{fileId}
+    </update>
+    <!--  更新文件PointX-->
+    <update id="updateFilePointX">
+        update File set pointX=#{pointX} where id=#{fileId}
+    </update>
+    <!--  更新文件PointY-->
+    <update id="updateFilePointY">
+        update File set pointY=#{pointY} where id=#{fileId}
+    </update>
+    <!--  更新文件zoom2-->
+    <update id="updateFileZoom2">
+        update File set zoom2=#{zoom2} where id=#{fileId}
+    </update>
+    <!--  更新文件PointX2-->
+    <update id="updateFilePointX2">
+        update File set pointX2=#{pointX2} where id=#{fileId}
+    </update>
+    <!--  更新文件PointY2-->
+    <update id="updateFilePointY2">
+        update File set pointY2=#{pointY2} where id=#{fileId}
+    </update>
+
+    <!--  用于返回最大的entityId-->
+    <select id="getMaxEntityId" resultType="int">
+        select max(id) from Entity
+    </select>
+
+    <!--  用于返回最大的relationId-->
+    <select id="getMaxRelationId" resultType="int">
+        select max(id) from Relation
+    </select>
+
+    <resultMap id="Entity" type="com.example.coin.po.Entity">
+        <id column="id" property="id"></id>
+        <result column="entityName" property="entityName"></result>
+        <result column="fileId" property="fileId"></result>
+        <result column="color" property="color"></result>
+        <result column="shape" property="shape"></result>
+        <result column="fontType" property="fontType"></result>
+        <result column="fontSize" property="fontSize"></result>
+        <result column="entityType" property="entityType"></result>
+        <result column="x" property="x"></result>
+        <result column="y" property="y"></result>
+        <result column="x2" property="x2"></result>
+        <result column="y2" property="y2"></result>
+        <result column="visible" property="visible"></result>
+        <result column="nameVisible" property="nameVisible"></result>
+        <result column="entitySize" property="entitySize"></result>
+    </resultMap>
+    <resultMap id="Relation" type="com.example.coin.po.Relation">
+        <id column="id" property="id"></id>
+        <result column="relationName" property="relationName"></result>
+        <result column="fileId" property="fileId"></result>
+        <result column="e1" property="e1"></result>
+        <result column="e2" property="e2"></result>
+        <result column="lineType" property="lineType"></result>
+        <result column="visible" property="visible"></result>
+        <result column="labelVisible" property="labelVisible"></result>
+        <result column="color" property="color"></result>
+        <result column="relationType" property="relationType"></result>
+    </resultMap>
+    <resultMap id="SourceFile" type="com.example.coin.po.SourceFile">
+        <id column="id" property="id"></id>
+        <result column="fileName" property="fileName"></result>
+        <result column="fileType" property="fileType"></result>
+        <result column="zoom"     property="zoom"></result>
+        <result column="pointX"   property="pointX"></result>
+        <result column="pointY"   property="pointY"></result>
+        <result column="zoom2"    property="zoom2"></result>
+        <result column="pointX2"  property="pointX2"></result>
+        <result column="pointY2"  property="pointY2"></result>
+    </resultMap>
+
+</mapper>

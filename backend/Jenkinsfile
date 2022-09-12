@@ -1,0 +1,61 @@
+#!/usr/bin/groovy
+
+pipeline{
+    agent any
+    post {
+      failure {
+        updateGitlabCommitStatus name: 'getcode', state: 'failed'
+        updateGitlabCommitStatus name: 'package', state: 'failed'
+        updateGitlabCommitStatus name: 'deploy', state: 'failed'
+      }
+      success {
+        updateGitlabCommitStatus name: 'getcode', state: 'success'
+        updateGitlabCommitStatus name: 'package', state: 'success'
+        updateGitlabCommitStatus name: 'deploy', state: 'success'
+      }
+    }
+    options {
+      gitLabConnection('test')
+      gitlabBuilds(builds: ['getcode','jacoco', 'package', 'deploy'])
+    }
+    stages{
+        stage("getcode"){
+           steps{
+               echo "get code from scm"
+               checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false,extensions: [], submoduleCfg: [], userRemoteConfigs:[[credentialsId: 'gitlab_http', url: 'http://212.129.149.40/181250100_crazy_ddl_coin/backend-crazyddl.git']]])
+            }
+        }
+        stage("package"){
+            steps{
+                echo "packge code"
+                sh label: '', script: 'mvn clean package '
+            }
+        }
+        stage("jacoco"){
+            steps{
+               jacoco()
+           }
+        }
+        stage("deploy"){
+            steps{
+                echo "deploy packge to node1"
+                sh label: '', script: '''
+                export BUILD_ID=dontKillMe
+                process_id=$(ps -ef | grep coin-0.0.1-SNAPSHOT | grep -v "grep" | awk \'{print $2}\')
+
+               if [[ ! -z "$process_id" ]]
+               then
+                echo "停止服务"
+                 kill -9 $process_id
+               else
+                 echo "服务未启动"
+               fi
+               
+               source /etc/profile
+               
+               nohup java -jar /var/lib/jenkins/workspace/backend_COIN/target/coin-0.0.1-SNAPSHOT.jar >/dev/null 2>&1 &
+               sleep 10s'''
+            }
+        }
+    }
+}

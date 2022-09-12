@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.coin.data.commodity.CommodityMapper">
+    <select id="getAllCommodities" resultMap="Commodity">
+        select * from Commodity
+    </select>
+
+    <select id="getCommodity" resultMap="Commodity">
+        select * from Commodity where id=#{id}
+    </select>
+
+    <select id="getPopularCommodities" resultMap="Commodity">
+        select * from Commodity order by collectNum desc limit 12
+    </select>
+
+
+    <select id="getCommodityByBrand" resultMap="Commodity">
+        select * from Commodity where brand=#{brand}
+    </select>
+
+    <select id="getCommodityByCommodityType" resultMap="Commodity">
+        select * from Commodity where commodityType=#{commodityType}
+    </select>
+
+    <select id="getCommodityByColorScheme" resultMap="Commodity">
+        select * from Commodity where colorScheme=#{colorScheme}
+    </select>
+
+    <select id="getCommodityByOriginPlace" resultMap="Commodity">
+        select * from Commodity where originPlace=#{originPlace}
+    </select>
+
+    <select id="getCommodityByEffect" resultMap="Commodity">
+        select * from Commodity where effect=#{effect}
+    </select>
+
+    <select id="getCommodityByPrice" resultMap="Commodity">
+        select * from Commodity where price between #{price}-30 and #{price}+30
+    </select>
+
+    <select id="getCommodityBySqlId" resultMap="Commodity">
+        select * from Commodity where sqlId=#{sqlId}
+    </select>
+
+    <select id="getAllFuzzs" resultMap="Fuzz">
+        select * from Fuzz
+    </select>
+
+    <select id="getSQLId" resultType="string">
+        select sqlId from Fuzz where (fuzzyWord1=#{fuzzyWord} or fuzzyWord2=#{fuzzyWord})
+    </select>
+
+    <select id="getCommentByCommodityId" resultType="string">
+        select c.keyword from Comment c where commodity_id=#{commodityId} order by c.count desc
+    </select>
+
+
+    <resultMap id="Commodity" type="com.example.coin.po.Commodity">
+        <id column="id" property="id"></id>
+        <result column="brand" property="brand"></result>
+        <result column="name" property="name"></result>
+        <result column="commodityType" property="commodityType"></result>
+        <result column="color" property="color"></result>
+        <result column="colorScheme" property="colorScheme"></result>
+        <result column="shade" property="shade"></result>
+        <result column="originPlace" property="originPlace"></result>
+        <result column="effect" property="effect"></result>
+        <result column="price" property="price"></result>
+        <result column="collectNum" property="collectNum"></result>
+        <result column="image" property="image"></result>
+        <result column="sqlId" property="sqlId"></result>
+    </resultMap>
+    <resultMap id="Fuzz" type="com.example.coin.po.Fuzz">
+        <id column="id" property="id"></id>
+        <result column="fuzzyWord1" property="fuzzyWord1"></result>
+        <result column="fuzzyWord2" property="fuzzyWord2"></result>
+        <result column="sqlId" property="sqlId"></result>
+    </resultMap>
+</mapper>

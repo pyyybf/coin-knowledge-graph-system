@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.coin.data.user.AccountMapper">
+    <select id="getAccountByUserName" resultMap="Account">
+        select *
+        from Account
+        where userName = #{userName} limit 0,1
+    </select>
+
+    <select id="getAccountByEmail" resultMap="Account">
+        select *
+        from Account
+        where email = #{email} limit 0,1
+    </select>
+
+    <insert id="addAccount" parameterType="com.example.coin.po.Account" useGeneratedKeys="true" keyProperty="id">
+        insert into Account(userName, password, email, avatar, accountType)
+        values (#{userName}, #{password}, #{email}, #{avatar}, #{accountType})
+    </insert>
+
+    <select id="getMaxUserId" resultType="int">
+        select max(id)
+        from Account
+    </select>
+
+    <delete id="deleteUser">
+        delete
+        from Account
+        where userName = #{userName}
+    </delete>
+
+    <update id="uploadAvatar">
+        update Account
+        set avatar=#{avatar}
+        where id = #{userId}
+    </update>
+
+    <select id="getAccountByUserId" resultMap="Account">
+        select *
+        from Account
+        where id = #{userId}
+    </select>
+
+    <update id="updateAccount">
+        update Account
+        set userName=#{userName},
+        <if test="password!=null and password!=''">
+            password=#{password},
+        </if>
+            avatar=#{avatar}
+        where id=#{id}
+    </update>
+
+    <resultMap id="Account" type="com.example.coin.po.Account"></resultMap>
+</mapper>

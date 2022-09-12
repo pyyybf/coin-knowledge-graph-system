@@ -1,0 +1,119 @@
+{
+  "RECORDS": [
+    {
+      "name": "Ada",
+      "type": 0,
+      "entityType": "未成年人"
+    },
+    {
+      "name": "Antonia",
+      "type": 0,
+      "entityType": "未成年人"
+    },
+    {
+      "name": "Caroline",
+      "type": 0,
+      "entityType": "成年人"
+    },
+    {
+      "name": "Cynthia",
+      "type": 0,
+      "entityType": "成年人"
+    },
+    {
+      "name": "Helen",
+      "type": 0,
+      "entityType": "未成年人"
+    },
+    {
+      "name": "Jamie",
+      "type": 0,
+      "entityType": "成年人"
+    },
+    {
+      "name": "Daniel",
+      "type": 0,
+      "entityType": "成年人"
+    },
+    {
+      "name": "Roy",
+      "type": 0,
+      "entityType": "成年人"
+    },
+    {
+      "name": "Stella",
+      "type": 0,
+      "entityType": "成年人"
+    },
+    {
+      "name": "couple",
+      "type": 1,
+      "e1": "Caroline",
+      "e2": "Antonia",
+      "relationType": "家庭关系"
+    },
+    {
+      "name": "companion",
+      "type": 1,
+      "e1": "Caroline",
+      "e2": "Ada",
+      "relationType": "工作关系"
+    },
+    {
+      "name": "penpal",
+      "type": 1,
+      "e1": "Caroline",
+      "e2": "Cynthia",
+      "relationType": "朋友关系"
+    },
+    {
+      "name": "mentor",
+      "type": 1,
+      "e1": "Caroline",
+      "e2": "Jamie",
+      "relationType": "师生关系"
+    },
+    {
+      "name": "partner",
+      "type": 1,
+      "e1": "Caroline",
+      "e2": "Helen",
+      "relationType": "工作关系"
+    },
+    {
+      "name": "confidante",
+      "type": 1,
+      "e1": "Helen",
+      "e2": "Antonia",
+      "relationType": "朋友关系"
+    },
+    {
+      "name": "confidante",
+      "type": 1,
+      "e1": "Cynthia",
+      "e2": "Ada",
+      "relationType": "朋友关系"
+    },
+    {
+      "name": "couple",
+      "type": 1,
+      "e1": "Stella",
+      "e2": "Daniel",
+      "relationType": "家庭关系"
+    },
+    {
+      "name": "intimate",
+      "type": 1,
+      "e1": "Stella",
+      "e2": "Roy",
+      "relationType": "朋友关系"
+    },
+    {
+      "name": "aunt",
+      "type": 1,
+      "e1": "Stella",
+      "e2": "Helen",
+      "relationType": "家庭关系"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.coin.data.collect.CollectMapper">
+    <select id="getCollectedCommodityIdListByUserId" resultType="integer">
+        select commodityId from Collect where userId=#{userId}
+    </select>
+
+    <select id="getCollectListByUserId" resultMap="Commodity">
+        select * from Collect where userId=#{userId}
+    </select>
+
+    <select id="getNewestCollectedCommodityListByUserId" resultMap="Commodity">
+        select * from Commodity com where com.id in (
+          select t.commodityId from (
+            select * from Collect as col where col.userId=#{userId} order by col.id desc limit 3
+          ) as t
+        )
+    </select>
+
+    <select id="getCollectedCommodityListByUserId" resultMap="Commodity">
+        select * from Commodity com where com.id in (
+          select t.commodityId from (
+            select * from Collect as col where col.userId=#{userId} order by col.id desc
+          ) as t
+        )
+    </select>
+
+    <insert id="addCollect">
+        insert into Collect(userId,commodityId,val) values (#{userId},#{commodityId},1);
+    </insert>
+
+    <delete id="delCollect">
+        delete from Collect where userId=#{userId} and commodityId=#{commodityId}
+    </delete>
+
+    <update id="changeCollectNum">
+        update Commodity set collectNum=collectNum+#{num} where id=#{id}
+    </update>
+
+    <resultMap id="Commodity" type="com.example.coin.po.Commodity"></resultMap>
+</mapper>

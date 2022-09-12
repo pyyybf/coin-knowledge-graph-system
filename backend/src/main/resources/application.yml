@@ -1,0 +1,24 @@
+spring:
+  datasource:
+#    url: jdbc:mysql://106.14.27.210:3306/Coin?serverTimezone=CTT&characterEncoding=UTF-8&useSSL=false
+    # 连服务器时用上面的url，连本地时用下面的url
+    url: jdbc:mysql://localhost:3306/Coin?serverTimezone=CTT&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    max-active: 200
+    max-idle: 20
+    min-idle: 10
+  thymeleaf:
+    cache: false
+  jackson:
+    time-zone: GMT+8
+
+mybatis:
+  mapper-locations: classpath:dataImpl/*/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  max-http-header-size: 102400
+  port: 8001
+  

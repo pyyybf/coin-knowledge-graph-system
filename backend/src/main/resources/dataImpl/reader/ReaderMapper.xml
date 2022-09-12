@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.coin.data.reader.ReaderMapper">
+    <!--    用于写入Entity-->
+    <insert id="initEntity" parameterType="com.example.coin.po.Entity" useGeneratedKeys="true" keyProperty="id">
+        insert into Entity(entityName,fileId,color,shape,fontType,fontSize,entityType,x,y,x2,y2,visible,nameVisible,entitySize)
+        values(#{entityName},#{fileId},#{color},'circle',#{fontType},#{fontSize},#{entityType},#{x},#{y},#{x2},#{y2},#{visible},#{nameVisible},#{entitySize})
+    </insert>
+
+    <!--    用于写入Relation-->
+    <insert id="initRelation" parameterType="com.example.coin.po.Relation" useGeneratedKeys="true" keyProperty="id">
+        insert into Relation(relationName,fileId,e1,e2,lineType,visible,labelVisible,color,relationType)
+        values(#{relationName},#{fileId},#{e1},#{e2},#{lineType},#{visible},#{labelVisible},#{color},#{relationType})
+    </insert>
+
+    <!--    用于写入File-->
+    <insert id="initFile" parameterType="com.example.coin.po.SourceFile" useGeneratedKeys="true" keyProperty="id">
+        insert into File(fileName,fileType,zoom,pointX,pointY,zoom2,pointX2,pointY2)
+        values(#{fileName},#{fileType},#{zoom},#{pointX},#{pointY},#{zoom2},#{pointX2},#{pointY2})
+    </insert>
+
+    <!--  用于返回最大的fileId-->
+    <select id="getMaxFileId" resultType="int">
+        select max(id) from File
+    </select>
+
+    <!--获取所有文件-->
+    <select id="getAllFiles" resultMap="SourceFile">
+        select * from File
+    </select>
+
+    <!--    用于清空Entity表-->
+    <update id="clearEntityTable">
+        truncate Entity
+    </update>
+
+    <!--    用于清空Relation表-->
+    <update id="clearRelationTable">
+        truncate Relation
+    </update>
+
+    <!--    用于清空File表-->
+    <update id="clearFileTable">
+        truncate File
+    </update>
+
+    <!--    删除文件-->
+    <delete id="deleteFileById">
+        delete from File where id=#{fileId}
+    </delete>
+
+    <delete id="deleteEntityByFileId">
+        delete from Entity where fileId=#{fileId}
+    </delete>
+
+    <delete id="deleteRelationByFileId">
+        delete from Relation where fileId=#{fileId}
+    </delete>
+
+    <resultMap id="SourceFile" type="com.example.coin.po.SourceFile">
+        <id column="id" property="id"></id>
+        <result column="fileName" property="fileName"></result>
+        <result column="fileType" property="fileType"></result>
+        <result column="zoom"     property="zoom"></result>
+        <result column="pointX"   property="pointX"></result>
+        <result column="pointY"   property="pointY"></result>
+        <result column="zoom2"    property="zoom2"></result>
+        <result column="pointX2"  property="pointX2"></result>
+        <result column="pointY2"  property="pointY2"></result>
+    </resultMap>
+    <resultMap id="Entity" type="com.example.coin.po.Entity"></resultMap>
+    <resultMap id="Relation" type="com.example.coin.po.Relation"></resultMap>
+</mapper>
